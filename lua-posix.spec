@@ -11,6 +11,7 @@ License:	Public Domain
 Group:		Development/Libraries
 URL:		http://luaforge.net/projects/luaposix/
 Source0:	http://luaforge.net/frs/download.php/4808/luaposix-%{version}.tar.gz
+# Source0-md5:	31cb7d71f8d9d8c595e9777e59d55666
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 BuildRequires:	lua >= %{luaver}
